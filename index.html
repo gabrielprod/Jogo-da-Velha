@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src='js/jquery.js'></script>
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+    <div id="vezde">
+        <h1 id="jog">Vez de: </h1>
+    </div>
+
+    <div class="tabuleiro">
+        <section>
+            <div id="a1" class="square" data-jogada=""></div>
+            <div id="a2" class="square" data-jogada=""></div>
+            <div id="a3" class="square" data-jogada=""></div>
+        </section>
+        <section>
+            <div id="b1" class="square" data-jogada=""></div>
+            <div id="b2" class="square" data-jogada=""></div>
+            <div id="b3" class="square" data-jogada=""></div>
+        </section>
+        <section>
+            <div id="c1" class="square" data-jogada=""></div>
+            <div id="c2" class="square" data-jogada=""></div>
+            <div id="c3" class="square" data-jogada=""></div>
+        </section>
+    </div>
+
+    <button id="reset">Restart</button>
+
+    <div id="menu" class="men">
+        <form action="">
+            <h1>Jogo da Velha Cadastro</h1>
+            <input type="text" id="input1" placeholder="Player 1" value="">
+            <input type="text" id="input2" placeholder="Player 2" value="">
+            <input type="button" value="Jogar" id="btnmenu" class="btn">
+        </form>
+    </div>
+
+
+
+    <!-- <script src="js/interface.js"></script> -->
+    <script src="js/jogo.js"></script>
+</body>
+
+</html>
